@@ -1,0 +1,119 @@
+body {
+    background-color: #0e0e0e;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Calibri, "Times New Roman", Times, serif; 
+}
+
+p {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    height: 130px;
+    font-family: Calibri, "Times New Roman", Times, serif;
+}
+
+.header-project {
+    height: 500px;  
+}
+
+.profile {
+    width: 300px;
+    margin: 0px;
+}
+
+a {
+    font-family: Calibri, "Times New Roman", Times, serif;   
+}
+
+img {
+    background: #0e0e0e;
+    vertical-align: middle;
+    max-height: 1200px;
+    max-width: 800px;
+}
+
+.parent {
+  background: #0e0e0e;
+  margin: 0px;
+  position: relative;
+  height: 275px;
+}
+
+.center-text {
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #FFF;
+	color: black;
+}
+
+.button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+   }
+
+.glow-button:hover {
+ color: rgba(255, 255, 255, 1);
+ box-shadow: 0 10px 15px rgba(255, 255, 255, 0.2);
+}
+
+.img-link {
+    margin: 30px;
+    position: relative;
+}
+
+.img-link:hover{
+    border-color: #FFFF;
+    outline: 0;
+    -webkit-box-shadow: inset 5px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 5px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  }
+
+footer {
+    color: rgba(255, 255, 255);
+    font-family: Calibri, "Times New Roman", Times, serif;
+}
